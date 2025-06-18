@@ -1,0 +1,729 @@
+Classification reports for each fold (for each metric)
+
+=======================STFT========================================
+--- Classification Report FOLD 1/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        36
+children_playing       0.00      0.00      0.00       100
+        dog_bark       1.00      0.03      0.06       100
+        drilling       0.14      0.12      0.13       100
+   engine_idling       0.00      0.00      0.00        96
+        gun_shot       0.00      0.00      0.00        35
+      jackhammer       0.12      0.73      0.21       120
+           siren       0.00      0.00      0.00        86
+    street_music       0.00      0.00      0.00       100
+
+        accuracy                           0.12       873
+       macro avg       0.13      0.09      0.04       873
+    weighted avg       0.15      0.12      0.05       873
+
+--- Classification Report FOLD 2/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        42
+children_playing       0.00      0.00      0.00       100
+        dog_bark       1.00      0.06      0.11       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.31      0.14      0.19       100
+        gun_shot       0.50      0.03      0.05        35
+      jackhammer       0.15      1.00      0.26       120
+           siren       0.17      0.01      0.02        91
+    street_music       0.00      0.00      0.00       100
+
+        accuracy                           0.16       888
+       macro avg       0.21      0.12      0.06       888
+    weighted avg       0.20      0.16      0.07       888
+
+--- Classification Report FOLD 3/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.67      0.02      0.04       100
+        car_horn       0.00      0.00      0.00        43
+children_playing       0.00      0.00      0.00       100
+        dog_bark       1.00      0.10      0.18       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.40      0.06      0.10       107
+        gun_shot       0.33      0.03      0.05        36
+      jackhammer       0.14      1.00      0.25       120
+           siren       0.00      0.00      0.00       119
+    street_music       0.00      0.00      0.00       100
+
+        accuracy                           0.15       925
+       macro avg       0.25      0.12      0.06       925
+    weighted avg       0.26      0.15      0.07       925
+
+--- Classification Report FOLD 4/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.50      0.02      0.03        59
+children_playing       0.00      0.00      0.00       100
+        dog_bark       1.00      0.07      0.13       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.56      0.09      0.16       107
+        gun_shot       0.67      0.11      0.18        38
+      jackhammer       0.13      1.00      0.24       120
+           siren       0.09      0.01      0.01       166
+    street_music       0.83      0.05      0.09       100
+
+        accuracy                           0.15       990
+       macro avg       0.38      0.13      0.08       990
+    weighted avg       0.33      0.15      0.08       990
+
+--- Classification Report FOLD 5/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        98
+children_playing       0.00      0.00      0.00       100
+        dog_bark       1.00      0.16      0.28       100
+        drilling       0.13      0.90      0.23       100
+   engine_idling       0.47      0.39      0.43       107
+        gun_shot       1.00      0.23      0.37        40
+      jackhammer       0.04      0.05      0.04       120
+           siren       0.00      0.00      0.00        71
+    street_music       0.00      0.00      0.00       100
+
+        accuracy                           0.17       936
+       macro avg       0.26      0.17      0.13       936
+    weighted avg       0.22      0.17      0.12       936
+
+--- Classification Report FOLD 6/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        28
+children_playing       0.00      0.00      0.00       100
+        dog_bark       0.95      0.20      0.33       100
+        drilling       0.16      0.28      0.21       100
+   engine_idling       0.22      0.07      0.11       107
+        gun_shot       1.00      0.11      0.20        46
+      jackhammer       0.09      0.79      0.17        68
+           siren       0.00      0.00      0.00        74
+    street_music       0.40      0.02      0.04       100
+
+        accuracy                           0.14       823
+       macro avg       0.28      0.15      0.10       823
+    weighted avg       0.28      0.14      0.11       823
+
+--- Classification Report FOLD 7/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        28
+children_playing       0.00      0.00      0.00       100
+        dog_bark       1.00      0.03      0.06       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.15      0.15      0.15       106
+        gun_shot       1.00      0.08      0.15        51
+      jackhammer       0.11      1.00      0.20        76
+           siren       0.33      0.04      0.07        77
+    street_music       0.00      0.00      0.00       100
+
+        accuracy                           0.12       838
+       macro avg       0.26      0.13      0.06       838
+    weighted avg       0.24      0.12      0.06       838
+ 
+--- Classification Report FOLD 8/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        30
+children_playing       0.00      0.00      0.00       100
+        dog_bark       0.50      0.01      0.02       100
+        drilling       0.29      0.23      0.26       100
+   engine_idling       0.38      0.12      0.19        88
+        gun_shot       0.00      0.00      0.00        30
+      jackhammer       0.11      1.00      0.20        78
+           siren       0.11      0.01      0.02        80
+    street_music       1.00      0.01      0.02       100
+
+        accuracy                           0.14       806
+       macro avg       0.24      0.14      0.07       806
+    weighted avg       0.29      0.14      0.08       806
+
+--- Classification Report FOLD 9/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        32
+children_playing       0.00      0.00      0.00       100
+        dog_bark       1.00      0.04      0.08       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       1.00      0.33      0.49        89
+        gun_shot       0.50      0.06      0.11        31
+      jackhammer       0.12      1.00      0.21        82
+           siren       0.00      0.00      0.00        82
+    street_music       0.75      0.06      0.11       100
+
+        accuracy                           0.15       816
+       macro avg       0.34      0.15      0.10       816
+    weighted avg       0.35      0.15      0.10       816
+
+--- Classification Report FOLD 10/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        33
+children_playing       0.00      0.00      0.00       100
+        dog_bark       0.89      0.08      0.15       100
+        drilling       0.11      0.05      0.07       100
+   engine_idling       0.82      0.19      0.31        93
+        gun_shot       0.67      0.06      0.11        32
+      jackhammer       0.13      0.97      0.22        96
+           siren       0.57      0.10      0.16        83
+    street_music       0.00      0.00      0.00       100
+
+        accuracy                           0.16       837
+       macro avg       0.32      0.15      0.10       837
+    weighted avg       0.31      0.16      0.11       837
+===================================================================
+
+=======================log_STFT====================================
+--- Classification Report FOLD 1/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        36
+children_playing       0.25      0.54      0.34       100
+        dog_bark       1.00      0.08      0.15       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.22      0.80      0.34        96
+        gun_shot       0.00      0.00      0.00        35
+      jackhammer       0.44      1.00      0.61       120
+           siren       0.00      0.00      0.00        86
+    street_music       1.00      0.02      0.04       100
+
+        accuracy                           0.30       873
+       macro avg       0.29      0.24      0.15       873
+    weighted avg       0.34      0.30      0.18       873
+
+--- Classification Report FOLD 2/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.75      0.06      0.11       100
+        car_horn       0.00      0.00      0.00        42
+children_playing       0.25      0.38      0.30       100
+        dog_bark       1.00      0.04      0.08       100
+        drilling       1.00      0.14      0.25       100
+   engine_idling       0.15      1.00      0.26       100
+        gun_shot       0.00      0.00      0.00        35
+      jackhammer       0.11      0.03      0.04       120
+           siren       0.00      0.00      0.00        91
+    street_music       1.00      0.02      0.04       100
+
+        accuracy                           0.19       888
+       macro avg       0.43      0.17      0.11       888
+    weighted avg       0.48      0.19      0.12       888
+
+--- Classification Report FOLD 3/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       1.00      0.02      0.05        43
+children_playing       0.34      0.20      0.25       100
+        dog_bark       1.00      0.18      0.31       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.05      0.21      0.08       107
+        gun_shot       0.00      0.00      0.00        36
+      jackhammer       0.26      0.88      0.40       120
+           siren       0.00      0.00      0.00       119
+    street_music       0.00      0.00      0.00       100
+
+        accuracy                           0.18       925
+       macro avg       0.27      0.15      0.11       925
+    weighted avg       0.23      0.18      0.12       925
+
+--- Classification Report FOLD 4/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.50      0.05      0.09       100
+        car_horn       0.00      0.00      0.00        59
+children_playing       0.33      0.47      0.39       100
+        dog_bark       0.82      0.14      0.24       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.12      0.61      0.19       107
+        gun_shot       0.00      0.00      0.00        38
+      jackhammer       0.32      0.68      0.43       120
+           siren       0.00      0.00      0.00       166
+    street_music       1.00      0.01      0.02       100
+
+        accuracy                           0.22       990
+       macro avg       0.31      0.20      0.14       990
+    weighted avg       0.32      0.22      0.15       990
+
+--- Classification Report FOLD 5/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        98
+children_playing       0.29      0.50      0.37       100
+        dog_bark       1.00      0.02      0.04       100
+        drilling       0.78      0.25      0.38       100
+   engine_idling       0.20      0.63      0.30       107
+        gun_shot       0.00      0.00      0.00        40
+      jackhammer       0.40      0.78      0.53       120
+           siren       0.53      0.13      0.20        71
+    street_music       0.82      0.09      0.16       100
+
+        accuracy                           0.27       936
+       macro avg       0.40      0.24      0.20       936
+    weighted avg       0.42      0.27      0.22       936
+
+--- Classification Report FOLD 6/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.43      0.47      0.45       100
+        car_horn       0.00      0.00      0.00        28
+children_playing       0.29      0.02      0.04       100
+        dog_bark       1.00      0.06      0.11       100
+        drilling       1.00      0.04      0.08       100
+   engine_idling       0.15      0.40      0.22       107
+        gun_shot       0.00      0.00      0.00        46
+      jackhammer       0.13      0.81      0.23        68
+           siren       0.00      0.00      0.00        74
+    street_music       0.00      0.00      0.00       100
+
+        accuracy                           0.19       823
+       macro avg       0.30      0.18      0.11       823
+    weighted avg       0.36      0.19      0.13       823
+
+--- Classification Report FOLD 7/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        28
+children_playing       0.16      0.18      0.17       100
+        dog_bark       1.00      0.01      0.02       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.24      0.85      0.37       106
+        gun_shot       0.00      0.00      0.00        51
+      jackhammer       0.19      0.83      0.31        76
+           siren       0.35      0.08      0.13        77
+    street_music       1.00      0.07      0.13       100
+
+        accuracy                           0.22       838
+       macro avg       0.29      0.20      0.11       838
+    weighted avg       0.34      0.22      0.13       838
+
+--- Classification Report FOLD 8/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        30
+children_playing       0.28      0.68      0.39       100
+        dog_bark       1.00      0.09      0.17       100
+        drilling       0.59      0.10      0.17       100
+   engine_idling       0.33      0.64      0.43        88
+        gun_shot       0.00      0.00      0.00        30
+      jackhammer       0.22      0.99      0.35        78
+           siren       0.00      0.00      0.00        80
+    street_music       1.00      0.03      0.06       100
+
+        accuracy                           0.28       806
+       macro avg       0.34      0.25      0.16       806
+    weighted avg       0.41      0.28      0.18       806
+
+--- Classification Report FOLD 9/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.00      0.00      0.00       100
+        car_horn       0.00      0.00      0.00        32
+children_playing       0.21      0.56      0.31       100
+        dog_bark       1.00      0.04      0.08       100
+        drilling       0.29      0.02      0.04       100
+   engine_idling       0.15      0.64      0.25        89
+        gun_shot       0.00      0.00      0.00        31
+      jackhammer       0.49      0.87      0.63        82
+           siren       0.00      0.00      0.00        82
+    street_music       1.00      0.02      0.04       100
+
+        accuracy                           0.24       816
+       macro avg       0.31      0.21      0.13       816
+    weighted avg       0.37      0.24      0.15       816
+
+--- Classification Report FOLD 10/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.24      0.88      0.38       100
+        car_horn       0.00      0.00      0.00        33
+children_playing       0.30      0.27      0.28       100
+        dog_bark       0.89      0.24      0.38       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.19      0.43      0.26        93
+        gun_shot       0.00      0.00      0.00        32
+      jackhammer       0.62      0.73      0.67        96
+           siren       0.00      0.00      0.00        83
+    street_music       0.81      0.13      0.22       100
+
+        accuracy                           0.31       837
+       macro avg       0.31      0.27      0.22       837
+    weighted avg       0.36      0.31      0.26       837
+===================================================================
+
+=======================MEL=========================================
+--- Classification Report FOLD 1/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.28      0.07      0.11       100
+        car_horn       1.00      0.86      0.93        36
+children_playing       0.73      0.83      0.78       100
+        dog_bark       0.77      0.62      0.69       100
+        drilling       0.65      0.47      0.55       100
+   engine_idling       0.69      0.62      0.66        96
+        gun_shot       0.82      0.89      0.85        35
+      jackhammer       0.80      0.78      0.79       120
+           siren       0.38      0.91      0.54        86
+    street_music       0.81      0.84      0.82       100
+
+        accuracy                           0.66       873
+       macro avg       0.69      0.69      0.67       873
+    weighted avg       0.67      0.66      0.64       873
+
+--- Classification Report FOLD 2/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.26      0.56      0.35       100
+        car_horn       0.78      0.17      0.27        42
+children_playing       0.93      0.56      0.70       100
+        dog_bark       0.90      0.65      0.76       100
+        drilling       0.73      0.66      0.69       100
+   engine_idling       0.30      0.79      0.44       100
+        gun_shot       1.00      0.06      0.11        35
+      jackhammer       0.51      0.15      0.23       120
+           siren       0.86      0.26      0.40        91
+    street_music       0.76      0.86      0.81       100
+
+        accuracy                           0.52       888
+       macro avg       0.70      0.47      0.48       888
+    weighted avg       0.67      0.52      0.51       888
+
+--- Classification Report FOLD 3/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.29      0.42      0.34       100
+        car_horn       0.92      0.79      0.85        43
+children_playing       0.77      0.62      0.69       100
+        dog_bark       0.77      0.55      0.64       100
+        drilling       0.39      0.75      0.51       100
+   engine_idling       0.42      0.39      0.41       107
+        gun_shot       0.88      1.00      0.94        36
+      jackhammer       0.39      0.34      0.37       120
+           siren       0.70      0.45      0.54       119
+    street_music       0.84      0.66      0.74       100
+
+        accuracy                           0.55       925
+       macro avg       0.64      0.60      0.60       925
+    weighted avg       0.60      0.55      0.56       925
+
+--- Classification Report FOLD 4/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.14      0.56      0.22       100
+        car_horn       0.00      0.00      0.00        59
+children_playing       0.73      0.33      0.46       100
+        dog_bark       0.78      0.21      0.33       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.44      0.80      0.57       107
+        gun_shot       0.00      0.00      0.00        38
+      jackhammer       0.35      0.13      0.19       120
+           siren       1.00      0.19      0.31       166
+    street_music       0.28      0.69      0.40       100
+
+        accuracy                           0.32       990
+       macro avg       0.37      0.29      0.25       990
+    weighted avg       0.45      0.32      0.28       990
+
+--- Classification Report FOLD 5/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.13      0.14      0.13       100
+        car_horn       0.00      0.00      0.00        98
+children_playing       0.61      0.40      0.48       100
+        dog_bark       0.79      0.34      0.48       100
+        drilling       0.00      0.00      0.00       100
+   engine_idling       0.21      0.50      0.30       107
+        gun_shot       0.00      0.00      0.00        40
+      jackhammer       0.36      0.92      0.52       120
+           siren       0.87      0.38      0.53        71
+    street_music       0.58      0.73      0.65       100
+
+        accuracy                           0.38       936
+       macro avg       0.35      0.34      0.31       936
+    weighted avg       0.36      0.38      0.33       936
+
+--- Classification Report FOLD 6/10 ---
+ precision    recall  f1-score   support
+
+ air_conditioner       0.21      0.42      0.28       100
+        car_horn       1.00      0.04      0.07        28
+children_playing       0.97      0.58      0.72       100
+        dog_bark       0.92      0.33      0.49       100
+        drilling       0.50      0.93      0.65       100
+   engine_idling       0.60      0.32      0.41       107
+        gun_shot       0.00      0.00      0.00        46
+      jackhammer       0.50      0.26      0.35        68
+           siren       0.60      0.59      0.60        74
+    street_music       0.54      0.92      0.68       100
+
+        accuracy                           0.50       823
+       macro avg       0.58      0.44      0.42       823
+    weighted avg       0.59      0.50      0.48       823
+
+--- Classification Report FOLD 7/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.32      0.85      0.47       100
+        car_horn       1.00      0.07      0.13        28
+children_playing       0.92      0.49      0.64       100
+        dog_bark       0.94      0.58      0.72       100
+        drilling       0.58      0.41      0.48       100
+   engine_idling       0.74      0.32      0.45       106
+        gun_shot       1.00      0.43      0.60        51
+      jackhammer       0.22      0.45      0.29        76
+           siren       0.84      0.42      0.56        77
+    street_music       0.75      0.92      0.83       100
+
+        accuracy                           0.54       838
+       macro avg       0.73      0.49      0.52       838
+    weighted avg       0.70      0.54      0.55       838
+
+--- Classification Report FOLD 8/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.27      0.54      0.36       100
+        car_horn       1.00      0.03      0.06        30
+children_playing       0.75      0.53      0.62       100
+        dog_bark       1.00      0.25      0.40       100
+        drilling       0.97      0.67      0.79       100
+   engine_idling       0.89      0.53      0.67        88
+        gun_shot       0.00      0.00      0.00        30
+      jackhammer       0.32      0.92      0.47        78
+           siren       0.39      0.17      0.24        80
+    street_music       0.55      0.68      0.61       100
+
+        accuracy                           0.50       806
+       macro avg       0.61      0.43      0.42       806
+    weighted avg       0.64      0.50      0.49       806
+
+--- Classification Report FOLD 9/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.23      0.95      0.37       100
+        car_horn       1.00      0.16      0.27        32
+children_playing       0.62      0.58      0.60       100
+        dog_bark       0.77      0.10      0.18       100
+        drilling       1.00      0.03      0.06       100
+   engine_idling       0.68      0.31      0.43        89
+        gun_shot       0.00      0.00      0.00        31
+      jackhammer       0.54      0.91      0.68        82
+           siren       0.76      0.16      0.26        82
+    street_music       0.80      0.74      0.77       100
+
+        accuracy                           0.44       816
+       macro avg       0.64      0.39      0.36       816
+    weighted avg       0.66      0.44      0.39       816
+
+--- Classification Report FOLD 10/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.27      0.94      0.42       100
+        car_horn       0.82      0.42      0.56        33
+children_playing       0.79      0.15      0.25       100
+        dog_bark       0.88      0.35      0.50       100
+        drilling       0.94      0.64      0.76       100
+   engine_idling       0.53      0.17      0.26        93
+        gun_shot       1.00      0.06      0.12        32
+      jackhammer       0.62      0.88      0.73        96
+           siren       0.80      0.43      0.56        83
+    street_music       0.58      0.80      0.67       100
+
+        accuracy                           0.53       837
+       macro avg       0.72      0.48      0.48       837
+    weighted avg       0.69      0.53      0.51       837
+===================================================================
+
+=======================MFCC========================================
+--- Classification Report FOLD 1/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.29      0.95      0.44       100
+        car_horn       1.00      0.42      0.59        36
+children_playing       0.59      0.72      0.65       100
+        dog_bark       0.71      0.65      0.68       100
+        drilling       0.69      0.36      0.47       100
+   engine_idling       0.43      0.46      0.44        96
+        gun_shot       1.00      0.34      0.51        35
+      jackhammer       0.60      0.24      0.35       120
+           siren       0.88      0.79      0.83        86
+    street_music       1.00      0.21      0.35       100
+
+        accuracy                           0.52       873
+       macro avg       0.72      0.51      0.53       873
+    weighted avg       0.67      0.52      0.52       873
+
+--- Classification Report FOLD 2/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.52      0.44      0.48       100
+        car_horn       0.30      0.07      0.12        42
+children_playing       0.74      0.50      0.60       100
+        dog_bark       0.69      0.81      0.75       100
+        drilling       0.61      0.57      0.59       100
+   engine_idling       0.32      0.83      0.47       100
+        gun_shot       1.00      0.77      0.87        35
+      jackhammer       0.61      0.68      0.64       120
+           siren       0.80      0.62      0.70        91
+    street_music       1.00      0.27      0.43       100
+
+        accuracy                           0.57       888
+       macro avg       0.66      0.56      0.56       888
+    weighted avg       0.65      0.57      0.57       888
+
+--- Classification Report FOLD 3/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.41      0.13      0.20       100
+        car_horn       0.74      0.58      0.65        43
+children_playing       0.71      0.61      0.66       100
+        dog_bark       0.75      0.67      0.71       100
+        drilling       0.43      0.74      0.54       100
+   engine_idling       0.29      0.54      0.37       107
+        gun_shot       1.00      0.89      0.94        36
+      jackhammer       0.43      0.43      0.43       120
+           siren       0.96      0.74      0.83       119
+    street_music       0.75      0.48      0.59       100
+
+        accuracy                           0.56       925
+       macro avg       0.65      0.58      0.59       925
+    weighted avg       0.61      0.56      0.56       925
+
+--- Classification Report FOLD 4/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.65      0.47      0.55       100
+        car_horn       1.00      0.15      0.26        59
+children_playing       0.65      0.51      0.57       100
+        dog_bark       0.66      0.80      0.72       100
+        drilling       0.92      0.54      0.68       100
+   engine_idling       0.40      0.84      0.54       107
+        gun_shot       1.00      0.61      0.75        38
+      jackhammer       0.40      0.68      0.50       120
+           siren       0.87      0.67      0.76       166
+    street_music       0.70      0.50      0.58       100
+
+        accuracy                           0.60       990
+       macro avg       0.73      0.58      0.59       990
+    weighted avg       0.70      0.60      0.61       990
+
+--- Classification Report FOLD 5/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.59      0.57      0.58       100
+        car_horn       0.95      0.58      0.72        98
+children_playing       0.90      0.66      0.76       100
+        dog_bark       0.68      0.67      0.68       100
+        drilling       0.59      0.42      0.49       100
+   engine_idling       0.36      0.53      0.43       107
+        gun_shot       0.94      0.82      0.88        40
+      jackhammer       0.57      1.00      0.73       120
+           siren       0.95      0.80      0.87        71
+    street_music       0.81      0.60      0.69       100
+
+        accuracy                           0.66       936
+       macro avg       0.74      0.67      0.68       936
+    weighted avg       0.71      0.66      0.66       936
+
+--- Classification Report FOLD 6/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.31      0.65      0.42       100
+        car_horn       0.00      0.00      0.00        28
+children_playing       0.82      0.23      0.36       100
+        dog_bark       0.92      0.24      0.38       100
+        drilling       0.79      0.42      0.55       100
+   engine_idling       0.18      0.27      0.22       107
+        gun_shot       0.00      0.00      0.00        46
+      jackhammer       0.16      0.72      0.26        68
+           siren       0.76      0.30      0.43        74
+    street_music       1.00      0.04      0.08       100
+
+        accuracy                           0.31       823
+       macro avg       0.49      0.29      0.27       823
+    weighted avg       0.57      0.31      0.31       823
+
+--- Classification Report FOLD 7/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.51      0.47      0.49       100
+        car_horn       1.00      0.04      0.07        28
+children_playing       0.69      0.35      0.46       100
+        dog_bark       0.96      0.52      0.68       100
+        drilling       0.61      0.11      0.19       100
+   engine_idling       0.29      0.67      0.41       106
+        gun_shot       0.00      0.00      0.00        51
+      jackhammer       0.23      1.00      0.38        76
+           siren       0.88      0.30      0.45        77
+    street_music       0.96      0.25      0.40       100
+
+        accuracy                           0.41       838
+       macro avg       0.61      0.37      0.35       838
+    weighted avg       0.62      0.41      0.39       838
+
+--- Classification Report FOLD 8/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.53      0.54      0.54       100
+        car_horn       1.00      0.30      0.46        30
+children_playing       0.52      0.54      0.53       100
+        dog_bark       0.77      0.72      0.74       100
+        drilling       0.66      0.61      0.64       100
+   engine_idling       0.32      0.50      0.39        88
+        gun_shot       0.78      0.97      0.87        30
+      jackhammer       0.62      0.88      0.73        78
+           siren       0.65      0.44      0.52        80
+    street_music       0.72      0.46      0.56       100
+
+        accuracy                           0.59       806
+       macro avg       0.66      0.60      0.60       806
+    weighted avg       0.62      0.59      0.59       806
+
+--- Classification Report FOLD 9/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.37      0.32      0.34       100
+        car_horn       0.00      0.00      0.00        32
+children_playing       0.87      0.82      0.85       100
+        dog_bark       0.76      0.48      0.59       100
+        drilling       0.58      0.25      0.35       100
+   engine_idling       0.32      1.00      0.49        89
+        gun_shot       1.00      0.06      0.12        31
+      jackhammer       0.50      0.90      0.64        82
+           siren       0.91      0.73      0.81        82
+    street_music       0.89      0.32      0.47       100
+
+        accuracy                           0.54       816
+       macro avg       0.62      0.49      0.47       816
+    weighted avg       0.64      0.54      0.52       816
+
+--- Classification Report FOLD 10/10 ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.33      0.18      0.23       100
+        car_horn       0.76      0.39      0.52        33
+children_playing       0.67      0.30      0.41       100
+        dog_bark       1.00      0.30      0.46       100
+        drilling       0.37      0.07      0.12       100
+   engine_idling       0.23      0.89      0.36        93
+        gun_shot       1.00      0.09      0.17        32
+      jackhammer       0.37      0.95      0.53        96
+           siren       0.95      0.22      0.35        83
+    street_music       0.77      0.30      0.43       100
+
+        accuracy                           0.39       837
+       macro avg       0.64      0.37      0.36       837
+    weighted avg       0.60      0.39      0.36       837
+===================================================================
