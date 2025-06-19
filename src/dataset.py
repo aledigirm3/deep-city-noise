@@ -45,6 +45,7 @@ class UrbanSoundDataset(Dataset):
                 sample_rate=config.SAMPLE_RATE, n_mfcc=config.N_MFCC,
                 melkwargs={'n_fft': config.N_FFT, 'n_mels': config.N_MELS, 'hop_length': config.HOP_LENGTH}
             )
+        else:
             raise ValueError(f"Tipo di feature '{self.feature_type}' non supportato.")
 
         # --- Robust handling of dimensions ---
