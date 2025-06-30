@@ -10,7 +10,7 @@ from dataset import UrbanSoundDataModule
 from model import CNNClassifier
 
 def train_cross_validation():
-    """Esegue la cross-validation su 10 fold."""
+    """Performs 10-fold cross-validation."""
     
     os.makedirs(config.CHECKPOINT_DIR, exist_ok=True)
     
