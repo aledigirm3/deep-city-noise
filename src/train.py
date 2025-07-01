@@ -37,9 +37,9 @@ def train_cross_validation():
         test_batches = len(data_module.test_dataloader())
 
         print(f"--- Dataset Fold {fold} ---")
-        print(f"  Training:   {train_samples} campioni in {train_batches} batch")
-        print(f"  Validation: {val_samples} campioni in {val_batches} batch")
-        print(f"  Test:       {test_samples} campioni in {test_batches} batch")
+        print(f"  Training:   {train_samples} samples in {train_batches} batch")
+        print(f"  Validation: {val_samples} samples in {val_batches} batch")
+        print(f"  Test:       {test_samples} samples in {test_batches} batch")
         print("-" * 28)
 
         # 2. Model
@@ -81,13 +81,13 @@ def train_cross_validation():
             test_accuracies.append(test_results[0]['test_acc'])
 
     # Print the final cross-validation results
-    print(f"\n{'='*20} RISULTATI FINALI CROSS-VALIDATION {'='*20}")
+    print(f"\n{'='*20} FINAL RESULTS CROSS-VALIDATION {'='*20}")
     if test_accuracies:
         mean_acc = np.mean(test_accuracies)
         std_acc = np.std(test_accuracies)
-        print(f"Accuratezza media sui 10 fold: {mean_acc:.4f} (+/- {std_acc:.4f})")
+        print(f"10 fold mean accuracy: {mean_acc:.4f} (+/- {std_acc:.4f})")
     else:
-        print("Non è stato possibile calcolare l'accuratezza media.")
+        print("Average accuracy could not be calculated.")
 
 if __name__ == '__main__':
     # Set matmul precision for Tensor Cores on Ampere+ GPUs
