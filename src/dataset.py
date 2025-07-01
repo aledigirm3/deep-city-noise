@@ -94,7 +94,7 @@ class UrbanSoundDataset(Dataset):
             return features, label
 
         except Exception as e:
-            print(f"Errore nel caricare il file {file_path}: {e}")
+            print(f"Error loading file {file_path}: {e}")
             # Returns a zero tensor with the correct shape for the chosen feature type
             return torch.zeros(self.feature_shape), 0
 
